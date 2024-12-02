@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>welcome</title>
+</head>
+
+<body>
+    <script>
+        const username = "1234";
+        const password = "test";
+        document.body.innerHTML = `
+        <h1>Hello, ${username}!</h1>
+        <p>Your password is: ${password}</p>
+        <a href = "index.html">登出</a>
+        `;
+        </script>
+</body>
+</html>
