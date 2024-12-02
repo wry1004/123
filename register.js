@@ -1,6 +1,6 @@
 function handleSubmit(event){
     event.preventDefault();
-    // 取得輸入資料
+    // 取得輸入資料 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     // 將資料存入 local Storage
